@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: #2A2E34;
+}
+.nav-bg{
+    height: 100px;
+    width: 100%;
+    background-color:  #2A2E34;
+     box-shadow: rgba(0, 0, 0, 0.95) 0px 5px 15px;
+
+}
+.nav-heading{
+    color: white;
+    display: flex;
+}
+
+.nav-heading h1{
+    position: relative;
+    left: 7%;
+    top:30px;
+}
+.nav-sections {
+    color: white;
+    display: flex;
+    gap: 5%;
+    list-style-type: none;
+    font-size: 18px;   
+}
+
+.nav-btn button{
+  height: 40px;
+  width: 250px;
+  border-radius: 10px;
+  background-color: #F9A602;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: 'Outfit', sans-serif;
+
+
+}
+.nav-btn{
+      position: absolute;
+  top: 4%;
+  right: 6%;
+  text-decoration: none;
+  border: none;
+}
+
+.nav-sections li:hover{
+    cursor: pointer;
+    color:#F9A602;
+     text-decoration: underline;
+    
+}
+.nav-btn button:hover{
+    cursor: pointer;
+   
+}
+.intro-section{
+    position: relative;
+   
+    
+}
+.left-intro-up{
+    position: absolute;
+    top: 180px;
+    left: 100px;
+    font-size: 32px;
+    color: white;
+}
+.left-intro-down1{
+    position: absolute;
+    top: 270px;
+    left: 100px;
+    font-size: 32px;
+    color: white;
+    display: flex;
+}
+
+
+.left-intro-down2{
+    position: absolute;
+     top: 370px;
+    left: 100px;
+    font-size: 22px;
+    color: rgb(223, 220, 215);
+}
+.left-intro-down3{
+    position: absolute;
+    top: 460px;
+    left: 100px;
+
+}
+.left-intro-down3 input{
+   padding: 10px 280px 10px 280px;
+   border-radius: 10px;
+   border: 12px solid white;
+   outline: none;
+}
+.left-intro-down3 input::placeholder{
+  font-family: "Outfit",sans-serif;
+  font-size: 20px;
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+}
+.left-intro-down3 input:hover{
+  cursor: pointer;
+}
+.left-intro-down3 button{
+    display: flex;
+    position: absolute;
+top: 7px;
+left: 650px;
+ padding: 15px;
+  border-radius: 0px;
+  background-color: #F9A602;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: 'Outfit', sans-serif;
+  outline: none;
+  border: none;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.intro-left-btn1{
+    position: absolute;
+    top: 550px;
+    left: 100px;
+   
+}
+.intro-left-btn1 button{
+      background-color: #F9A602;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: 'Outfit', sans-serif;
+  padding: 13px;
+   border-radius: 10px;
+    border: none;
+}
+.intro-left-btn2{
+    position: absolute;
+    top: 550px;
+    left: 215px;
+   
+}
+.intro-left-btn2 button{
+      background-color:transparent;
+  font-weight: 700;
+  font-size: 14px;
+  font-family: 'Outfit', sans-serif;
+  padding: 10px;
+   border-radius: 10px;
+   border: 2px white solid;
+   color: white;
+}
+
+
+
+
+
+.intro-section-right{
+    position: relative;
+
+}
+
+.intro-box{
+    height: 470px;
+    width: 580px;
+    background-color: #FFFFFF0D;
+    position:absolute;
+    left: 900px;
+    top: 150px;
+    border-radius: 40px;
+}
+.box-head{
+    color: #F9A602;
+    font-family: "Outfit",sans-serif;
+    font-weight: 700;
+    position: absolute;
+    right: 360px;
+    top: 30px;
+
+}
+.card1{
+    height: 180px;
+    width: 220px;
+    font-family: 'Outfit', sans-serif;
+  background-color: #2A2E34;
+  position: absolute;
+  top:70px;
+  right: 320px;
+  border-radius: 15px;
+}
+.card1 p{
+     position: absolute;
+    top: 50px;
+    left: 50px;
+    font-size: 42px;
+    color: white;
+    font-weight: 900;
+}
+.card1 p1{
+     position: absolute;
+    top: 115px;
+    left: 50px;
+    font-size: 20px;
+    color: gray;
+    font-weight: 400;
+}
+.card2 p{
+     position: absolute;
+    top: 50px;
+    left: 50px;
+    font-size: 42px;
+    color: white;
+    font-weight: 900;
+}
+.card2 p1{
+     position: absolute;
+    top: 115px;
+    left: 40px;
+    font-size: 20px;
+    color: gray;
+    font-weight: 400;
+}
+.card2{
+    height: 180px;
+    width: 220px;
+    font-family: 'Outfit', sans-serif;
+  background-color: #2A2E34;
+  position: absolute;
+  top:70px;
+  right: 30px;
+   border-radius: 15px;
+}
+.intro-right-boxes{
+    display: flex;
+}
+.card3{
+    height: 180px;
+    width: 220px;
+    font-family: 'Outfit', sans-serif;
+  background-color: #2A2E34;
+  position: absolute;
+  top:265px;
+  right: 320px;
+  border-radius: 15px;
+}
+.card4{
+    height: 180px;
+    width: 220px;
+    font-family: 'Outfit', sans-serif;
+  background-color: #2A2E34;
+  position: absolute;
+   top:265px;
+  right: 30px;
+   border-radius: 15px;
+}
+.card3 p{
+     position: absolute;
+    top: 50px;
+    left: 65px;
+    font-size: 42px;
+    color: white;
+    font-weight: 900;
+}
+.card3 p1{
+       position: absolute;
+    top: 115px;
+    left: 40px;
+    font-size: 20px;
+    color: gray;
+    font-weight: 400;
+}
+.card4 p{
+     position: absolute;
+    top: 50px;
+    left: 75px;
+    font-size: 42px;
+    color: white;
+    font-weight: 900;
+}
+.card4 p1{
+     position: absolute;
+    top: 115px;
+    left: 50px;
+    font-size: 20px;
+    color: gray;
+    font-weight: 400;
+}
+.align{
+    margin-top: -60px;
+}
+
+
+/* browse area */
+
+.browse-area{
+    margin-top: 750px;
+position: relative;
+    height: 500px;
+    width: 100%;
+    background-color: #FFF4CC;
+}
+
+.details1-browse{
+    font-family: "Outfit",sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    color: #2A2E34;
+    position: absolute;
+    top: 100px;
+    left: 600px;
+}
+
+.details2-browse{
+     font-family: "Outfit",sans-serif;
+    font-size: 18px;
+    color: #2A2E34;
+    text-align: center;
+    position: absolute;
+    top: 170px;
+    left: 400px;
+}
+.details2-browse-hypen{
+    height: 7px;
+    border-radius: 5px;
+    width: 60px;
+    position: absolute;
+     top: 240px;
+    left: 700px;
+
+    background-color: #F9A602 ;
+    align-items: center;
+}
+
