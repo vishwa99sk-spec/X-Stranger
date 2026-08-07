@@ -7,7 +7,7 @@
 }
 body {
   font-family: 'Outfit', sans-serif;
-  background-color: #2A2E34;
+  background-color:#2A2E34;
 }
 .nav-bg{
     height: 100px;
@@ -42,7 +42,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   font-family: 'Outfit', sans-serif;
-
+  transition: transform 0.4s ease-in-out;
 
 }
 .nav-btn{
@@ -61,6 +61,7 @@ body {
 }
 .nav-btn button:hover{
     cursor: pointer;
+     transform: scale(1.2);
    
 }
 .intro-section{
@@ -144,6 +145,14 @@ left: 650px;
   padding: 13px;
    border-radius: 10px;
     border: none;
+    transition: transform 0.4s ease-in-out;
+}
+.intro-left-btn1 button:hover{
+    cursor: pointer;
+    /* color: white;
+    background-color: transparent; */
+    transform: scale(1.2);
+    border: none;
 }
 .intro-left-btn2{
     position: absolute;
@@ -160,6 +169,15 @@ left: 650px;
    border-radius: 10px;
    border: 2px white solid;
    color: white;
+    transition: transform 0.4s ease-in-out;
+}
+.intro-left-btn2 button:hover{
+    color: #17191d;
+    cursor: pointer;
+    background-color: #F9A602;
+    transform: scale(1.2);
+    border: none;
+     
 }
 
 
@@ -340,5 +358,393 @@ position: relative;
 
     background-color: #F9A602 ;
     align-items: center;
+}
+
+.card1-browse{
+    height:190px;
+    width: 190px;
+    font-family: 'Outfit', sans-serif;
+  background-color: #FED053;
+  position: absolute;
+  top:280px;
+  left:120px;
+  border-radius: 15px;
+}
+.card2-browse{
+   height:190px;
+    width: 190px;
+    font-family: 'Outfit', sans-serif;
+  background-color: #FED053;;
+  position: absolute;
+  top:280px;
+  right: 995px;
+  border-radius: 15px;
+}
+.card3-browse{
+     height:190px;
+    width: 190px;
+    font-family: 'Outfit', sans-serif;
+  background-color:#FED053;;
+  position: absolute;
+  top:280px;
+  left: 550px;
+  border-radius: 15px;
+}
+.card4-browse{
+   height:190px;
+    width: 190px;
+    font-family: 'Outfit', sans-serif;
+  background-color: #FED053;;
+  position: absolute;
+  top:280px;
+ left: 760px;
+  border-radius: 15px;
+}
+.card5-browse{
+    height:190px;
+    width: 190px;
+    font-family: 'Outfit', sans-serif;
+  background-color: #FED053;;
+  position: absolute;
+  top:280px;
+ left: 970px;
+  border-radius: 15px;
+}
+.card6-browse{
+  height:190px;
+    width: 190px;
+    font-family: 'Outfit', sans-serif;
+  background-color:#FED053;;
+  position: absolute;
+  top:280px;
+  left: 1180px;
+  border-radius: 15px;
+}
+.card1-browse p{
+     position: absolute;
+    top: 105px;
+    left: 29px;
+    font-size: 15px;
+    color:#2A2E34;
+    font-weight: 900;
+}
+.card1-browse p1{
+       position: absolute;
+    top: 130px;
+    left: 55px;
+    font-size: 12px;
+    color: #2A2E34;
+    font-weight: 400;
+}
+
+.card2-browse p{
+     position: absolute;
+    top: 105px;
+    left: 50px;
+    font-size: 15px;
+    color:#2A2E34;
+    font-weight: 900;
+}
+.card2-browse p1{
+       position: absolute;
+    top: 130px;
+    left: 60px;
+    font-size: 12px;
+    color: #2A2E34;
+    font-weight: 400;
+}
+
+ .card3-browse p{
+     position: absolute;
+    top: 105px;
+    left: 55px;
+    font-size: 15px;
+    color:#2A2E34;
+    font-weight: 900;
+}
+.card3-browse p1{
+       position: absolute;
+    top: 130px;
+    left: 60px;
+    font-size: 12px;
+    color: #2A2E34;
+    font-weight: 400;
+}
+
+.card4-browse p{
+     position: absolute;
+    top: 105px;
+    left: 55px;
+    font-size: 15px;
+    color:#2A2E34;
+    font-weight: 900;
+}
+.card4-browse p1{
+       position: absolute;
+    top: 130px;
+    left: 60px;
+    font-size: 12px;
+    color: #2A2E34;
+    font-weight: 400;
+}
+
+.card5-browse p{
+     position: absolute;
+    top: 105px;
+    left: 35px;
+    font-size: 15px;
+    color:#2A2E34;
+    font-weight: 900;
+}
+.card5-browse p1{
+       position: absolute;
+    top: 130px;
+    left: 60px;
+    font-size: 12px;
+    color: #2A2E34;
+    font-weight: 400;
+}
+.card6-browse p{
+     position: absolute;
+    top: 105px;
+    left: 65px;
+    font-size: 15px;
+    color:#ffffffb6;
+    font-weight: 900;
+}
+.card6-browse p1{
+       position: absolute;
+    top: 130px;
+    left: 60px;
+    font-size: 12px;
+    color: #2A2E34;
+    font-weight: 400;
+} 
+
+/* skills section */
+
+
+.skills{
+    background-color: rgb(255, 255, 255);
+    position: relative;
+
+}
+
+.skills-heading h1{
+    height: 1100px;
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    color: #2A2E34;
+    font-weight: 900;
+    padding-top: 80px    ;
+}
+
+.skill-heading-p p{
+    position: absolute;
+    top: 150px;
+    text-align: center;
+    left: 425px;
+    font-size: 20px;
+    color: rgb(96, 93, 93);
+}
+
+.skill-hypen{
+    height: 7px;
+    border-radius: 5px;
+    width: 60px;
+    position: absolute;
+     top: 240px;
+    left: 700px;
+
+    background-color: #F9A602 ;
+    align-items: center;
+}
+
+
+/* skills boxes */
+
+/* skills  all box 1 */
+
+
+
+
+.imgskill-box1{
+    position: relative;
+         height: 330px;
+    width: 380px;
+    background-color: white;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
+
+}
+.imgskill-box1 img{
+     width: 380px;
+     height: 150px;
+     border-radius: 25px 25px 0px 0px;
+}
+
+
+
+/* common skill box section */
+
+
+.img-details p{
+    font-family: 'Outfit', sans-serif;
+    color: #2A2E34;
+    font-size: 18px;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+.img-details p1{
+    font-family: 'Outfit', sans-serif;
+    color: #2A2E34;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 25px;
+    margin-bottom: 5px;  
+}
+.img-details button{
+    font-family: 'Outfit',sans-serif;
+    font-size: 12px;
+    color:#F9A602;
+    background-color: transparent;
+    border: 2px solid #F9A602;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    left: 260px;
+    top: 260px;
+    transition: transform 0.4s ease-in-out; 
+
+}
+.img-details button:hover{
+    cursor: pointer;
+    color: #2A2E34;
+    background-color: #F9A602;
+    font-family: 'Outfit',sans-serif;
+    font-weight: 700;
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+/* skills  all box 2 */
+
+
+
+.imgskill-box2{
+         height: 330px;
+    width: 380px;
+    background-color: white;
+    position: absolute;
+    top: 300px;
+    left: 575px;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
+
+}
+.imgskill-box2 img{
+     width: 380px;
+     height: 150px;
+     border-radius: 25px 25px 0px 0px;
+}
+
+
+/* skills  all box 3 */
+
+.imgskill-box3{
+         height: 330px;
+    width: 380px;
+    background-color: white;
+    position: absolute;
+    top: 300px;
+    left: 1050px;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
+
+}
+.imgskill-box3 img{
+     width: 380px;
+     height: 150px;
+     border-radius: 25px 25px 0px 0px;
+}
+.imgskill-box3 img{
+     width: 380px;
+     height: 150px;
+     border-radius: 25px 25px 0px 0px;
+}
+
+/* skills  all box 4 */
+
+.imgskill-box4{
+         height: 330px;
+    width: 380px;
+    background-color: white;
+    position: absolute;
+    top: 680px;
+    left: 100px;
+    border-radius: 40px;
+     box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
+}
+.imgskill-box4 img{
+     width: 380px;
+     height: 150px;
+     border-radius: 25px 25px 0px 0px;
+}
+
+
+/* skill boxes animation */
+
+/* box1 */
+
+.imgskill-box1{
+    transition: transform 0.4s ease-in-out;
+}
+
+.imgskill-box1:hover{
+    transform: scale(1.1);
+}
+/* box2 */
+
+.imgskill-box2{
+    transition: transform 0.4s ease-in-out;
+}
+
+.imgskill-box2:hover{
+    transform: scale(1.1);
+}
+/* box3 */
+.imgskill-box3{
+    transition: transform 0.4s ease-in-out;
+}
+
+.imgskill-box3:hover{
+    transform: scale(1.1);
+}
+/* box4 */
+.imgskill-box4{
+    transition: transform 0.4s ease-in-out;
+}
+
+.imgskill-box4:hover{
+    transform: scale(1.1);
+}
+
+/* footer section */
+
+.footer-area{
+    height: 130px;
+    width: 100%;
+    background-color:#17191d;
+    border-top: 5px solid #F9A602;
 }
 
