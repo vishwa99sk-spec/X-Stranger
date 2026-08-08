@@ -309,3 +309,32 @@ session teaching right */
 }
 
 
+
+.My-Session-REQUESTS-box-details5{
+    position: absolute;
+       top: 720px;
+
+    left: 730px;
+   
+}
+.My-Session-REQUESTS-box-details5 ul{
+     display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    gap: 90px;
+
+}
+.My-Session-REQUESTS-box-details6{
+    position: absolute;
+       top: 780px;
+
+    left: 730px;
+   
+}
+.My-Session-REQUESTS-box-details6 ul{
+     display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    gap: 87px;
+
+}
