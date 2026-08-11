@@ -63,7 +63,7 @@ body {
 .nav-btn button:hover{
     cursor: pointer;
      transform: scale(1.2);
-   
+    
 }
 .intro-section{
     position: relative;
