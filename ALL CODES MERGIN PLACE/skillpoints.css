@@ -290,3 +290,26 @@ textarea:hover{
     position: absolute;
     top:1100px;
 }
+
+.back-btn{
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    
+}
+.back-btn button{
+    background-color: #F9A602;
+    font-weight: 700;
+    font-family: 'Outfit',sans-serif;
+    font-size: 14px;
+    padding: 13px;
+    border-radius: 10px;
+    border: none;
+    width: 110px;
+    transition: transform 0.4s ease-in-out;
+    
+}
+.back-btn button:hover{
+  transform: scale(1.1);
+    
+}

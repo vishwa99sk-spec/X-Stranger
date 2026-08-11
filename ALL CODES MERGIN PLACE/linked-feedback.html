@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="skillmarket.css">
+    <link rel="stylesheet" href="./linked.feedback.css">
     <link rel="icon" href="./Gemini_Generated_Image_r9haxmr9haxmr9ha.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -10,8 +10,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
     <title>X-Stranger</title>
 </head>
-<body>
-  
+<body >
+  <div class="all-old code"  style="filter: blur(5px);" >
+
+
     <nav>
 
         <div class="nav-bg">
@@ -30,7 +32,7 @@
             <a href="./booking.html" style="text-decoration: none; color: white;"><li>Book a Skill Session</li></a>
             <a href="./skillpoints.html" style="text-decoration: none; color: white;"><li>SkillPoints & Ratings</li></a>
             <div class="nav-btn">
-                <a href="./linked-feedback.html"><button style="margin-bottom: 10px; border: none;">Send Exchange Request</button></a>
+                <button style="margin-bottom: 10px; border: none;">Send Exchange Request</button>
             </div>
         </div>
   </nav>    
@@ -61,7 +63,7 @@
     </div>
 
     <div class="left-intro-down4">
-        <a href="./linked-feedback.html"><div class="intro-left-btn1"><button >Rent a Skill</button></div></a>
+        <div class="intro-left-btn1"><button >Rent a Skill</button></div>
 <div class="intro-left-btn2"><a href="./booking.html" style="text-decoration: none;"><button >Book a Session</button></a></div> 
     </div>
 
@@ -113,7 +115,7 @@
 
 <!-- browse sections -->
 
-<div class="browse-area">
+<div class="browse-area"  style="filter: blur(5px);">
 
     <div class="details1-browse">
         <p>Browse Categories</p>
@@ -167,7 +169,7 @@
 
 <!-- skills section -->
 
-<div class="skills">
+<div class="skills"  style="filter: blur(5px);">
     <div class="skills-heading">
         <h1>Popular Skills in Demand</h1>
          </div>
@@ -254,12 +256,74 @@
    
 </div>
 
-<!-- FOOTER SECTIONS FOR ALL -->
 
-<div class="footer-area">
-    <p style="color: white; text-align: center; margin-top: 40px; margin-left: 100px;">
-        © 2026 SkillExchange Platform. All rights reserved. Created for prototyping reference.
-    </p>
+  </div>
+
+
+<!-- new code -->
+
+<div class="feedback-box" style="position: fixed;  top: 80px;" >
+
+
+    <div class="feed-head-black">
+        <div class="feed-head-detail">
+            <h1>Create New Skill Swap Request</h1>
+        </div>
+        </div>
+
+
+
+
+        <div class="feedback-sections" style="position: relative;">
+
+
+            <div class="skillsneed">
+    <h2>SKILL YOU NEED</h2>
+    <input type="text" placeholder="e.g. Figma Design, Python Coding">
+ </div>
+
+
+
+       <div class="skillsneed1">
+    <h2>SKILL OFFER YOU IN RETURN</h2>
+    <input type="text" placeholder="e.g. Figma Design, Python Coding">
+ </div>
+
+
+
+       <div class="skillsneed2">
+    <h2>PROPOSED SKILLPOINTS(LOCK AMOUNT)</h2>
+    <input type="number" placeholder="e.g. Figma Design, Python Coding">
+ </div>
+
+
+       <div class="skillsneed3" >
+    <h2>EXCHANGE GUIDELINES/DURATION</h2>
+   <textarea name="" id="" ></textarea>
+ </div>
+
+
+
+ <div class="buttons">
+    <div class="btn1">
+           <button style="margin-bottom: 10px;" id="swapbtn">Send Swap Offer</button>
+    </div>
+     <div class="btn2">
+           <a href="./skillmarket.html"><button style="margin-bottom: 10px;">Cancel</button></a>
+    </div>
+ </div>
+
+
+        </div>
+    
+
+
+
+
+
+
+
+    
 </div>
 
 
@@ -267,12 +331,7 @@
 
 
 
-
-
-
-
-
-
+<script src="./linked-feedback.js"></script>
 
 
 </body>
