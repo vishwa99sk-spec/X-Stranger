@@ -1,0 +1,10 @@
+/* footer section */
+
+.footer-area{
+    height: 130px;
+    width: 100%;
+    background-color:#17191d;
+    border-top: 5px solid #F9A602;
+    position: absolute;
+    top:1100px;
+}
